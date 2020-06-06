@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Window
+	x:Class="PSL1GHT_IDE_WPF.Window1" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	Title="PSL1GHT_IDE_WPF by MauroArgentino"
+	Height="480"
+	Width="640"
+	WindowState="Maximized">
+	<Grid>
+		<DockPanel
+			ClipToBounds="True"
+			Background="#FF353535"
+			Grid.Column="0"
+			Grid.Row="0"
+			HorizontalAlignment="Stretch"
+			VerticalAlignment="Stretch"
+			Margin="0,0,0,0">
+			<Menu
+				Background="#FF353535"
+				VerticalAlignment="Top"
+				Foreground="White"
+				DockPanel.Dock="Left Right"
+				Width="564"
+				Height="17">
+				<MenuItem
+					Header="Archivo"
+					VerticalAlignment="Center"
+					Background="#FF353535"
+					Foreground="#FFA8A8A8">
+					<MenuItem
+						Background="#FF353535"
+						Foreground="#FFA8A8A8"
+						Header="_Nuevo" />
+					<MenuItem
+						Background="#FF353535"
+						Foreground="#FFA8A8A8"
+						Header="_Abrir" />
+					<MenuItem
+						Background="#FF353535"
+						Foreground="#FFA8A8A8"
+						Header="_Guardar" />
+					<Separator
+						Background="#FF353535"
+						Foreground="#FFA8A8A8" />
+					<MenuItem
+						Background="#FF353535"
+						Foreground="#FFA8A8A8"
+						Header="_Salir" />
+				</MenuItem>
+				<MenuItem
+					Header="Editar"
+					VerticalAlignment="Center"
+					Background="Transparent"
+					Foreground="#FFA8A8A8" />
+				<MenuItem
+					Header="Ver"
+					VerticalAlignment="Center"
+					Background="Transparent"
+					Foreground="#FFA8A8A8" />
+				<MenuItem
+					Header="Proyecto"
+					VerticalAlignment="Center"
+					Background="Transparent"
+					Foreground="#FFA8A8A8" />
+			</Menu>
+			<ToolBar
+				Background="#FF353535"
+				HorizontalAlignment="Left"
+				DockPanel.Dock="Top"
+				VerticalAlignment="Top"
+				Width="275"
+				Height="29">
+				<Button
+					Content="Button"
+					Width="75"
+					Height="21" />
+			</ToolBar>
+			<!--	<DockPanel
+				Width="146"
+				Height="166">
+				<TabControl
+					Background="#FF605D5D" />
+			</DockPanel>-->
+			<!--<DockPanel
+				Width="133"
+				Height="166" />-->
+		</DockPanel>
+	</Grid>
+</Window>
