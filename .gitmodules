@@ -1,0 +1,15 @@
+[submodule "CODIGO TERCEROS/AvalonStudio"]
+	path = CODIGO TERCEROS/AvalonStudio
+	url = https://github.com/MauroArgentino/AvalonStudio.git
+[submodule "CODIGO TERCEROS/DarkUI"]
+	path = CODIGO TERCEROS/DarkUI
+	url = https://github.com/MauroArgentino/DarkUI.git
+[submodule "CODIGO TERCEROS/AvalonEdit-6.0.1"]
+	path = CODIGO TERCEROS/AvalonEdit-6.0.1
+	url = https://github.com/MauroArgentino/AvalonEdit.git
+[submodule "CODIGO TERCEROS/AvalonDock"]
+	path = CODIGO TERCEROS/AvalonDock
+	url = https://github.com/MauroArgentino/AvalonDock.git
+[submodule "CODIGO TERCEROS/ModernUI"]
+	path = CODIGO TERCEROS/ModernUI
+	url = https://github.com/MauroArgentino/metroframework-modern-ui.git

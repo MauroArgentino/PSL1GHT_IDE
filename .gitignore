@@ -1,0 +1,10 @@
+*.zip
+*.exe
+/PSL1GHT_IDE_VB/*
+/PSL1GHT_IDE_WPF/*
+/CODIGO TERCEROS/AvalonDock/releases/*
+/CODIGO TERCEROS/AvalonDock/issues/*
+/CODIGO TERCEROS/AvalonDock/license/*
+/CODIGO TERCEROS/AvalonDock/discussions/*
+/CODIGO TERCEROS/AvalonDock/wiki/*
+*.nupkg
